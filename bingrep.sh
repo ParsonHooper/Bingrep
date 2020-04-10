@@ -1,5 +1,3 @@
-#!/bin/bash
-
 bingrep () {
   if [ $# = 1 ] && [ $1 = '-h' -o $1 = '-help' -o $1 = '--help' ]
   then echo "Usage: bingrep [searchRegex] [searchFile]" && return
